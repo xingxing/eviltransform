@@ -1,4 +1,4 @@
-> module EvilTransform where
+> module EvilTransform (wgs2Gcj, gcj2Wgs, gcj2WgsExact, distance) where
 
 >     type Latitude   = Double 
 >     type Longitude  = Double
